@@ -3,7 +3,6 @@ import java.util.Scanner;
 
 public class random {
     public static void main(String[] args) {
-        // Create a HashMap to store Roman numeral values
         HashMap<Character, Integer> romanMap = new HashMap<>();
         romanMap.put('I', 1);
         romanMap.put('V', 5);
