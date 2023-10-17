@@ -1,7 +1,7 @@
 import java.util.HashMap;
 import java.util.Scanner;
    
-public class random {
+public class romanNumberChecker {
     public static void main(String[] args) {
         HashMap<Character, Integer> romanMap = new HashMap<>();
         romanMap.put('I', 1);
