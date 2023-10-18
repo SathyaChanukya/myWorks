@@ -13,4 +13,5 @@ let Sort=(arr)=>{
     }
     return arr
 }
-Sort([1,2,3,4,5])
+const sortDESC = Sort([1,2,3,4,5]);
+console.log(sortDESC);
