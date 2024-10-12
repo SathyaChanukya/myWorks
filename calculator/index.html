@@ -48,3 +48,50 @@
     <script src="script.js"></script>
   </body>
 </html>
+
+Use Case: Manage Appointment
+User Story ID1:001-Select an Appointment to Manage
+Description1:As a CSA, I want to be able to select a patient's appointment that has already been scheduled.
+Acceptance Criteria1:The application will
+1. display a list of the patient's upcoming appointments
+2. enable the CSA to select an individual appointment
+3. select an action to take on the selected appointment
+Techincal Implentation1:Once CSA Login in , Display the List of Appointments in Grid Format , with Indivdual Option to Select, CSA Select can Select the Scheduled Appointment.
+
+User Story ID2:002-Cancel an Appointment
+Description2:As a CSA, I want to be able to cancel a patient's upcoming appointment in compliance with business rules.
+Acceptance Criteria2:After the user selects the cancel action and clicks the next button on the Manage Appointments screen, the application displays a summary of the appointment information, a dropdown to choose a reason for cancellation, and a free text box for the CSA to enter additional comments about the cancellation.
+Techincal Implentation2:Once CSA Selects from the Grid and Clicks "NEXT", the information of the selected item to be displayed and Below that Reason for Cancellation to be displayed with Submit button
+
+User Story ID3:003-Confirm Appointment Cancellation
+Description3:As a CSA, I want to see a confirmation that I have successfully cancelled a patient's approintment
+Acceptance Criteria3:The application will display
+1. the date on which the cancellation was done
+2. the name of the CSA who did the cancellation
+3. the date of the last update to the interaction
+4. the name of the CSA who did the last update
+5. the patient's member Id
+6. the member name
+7. the contact name
+8. the cancelled appointment Provider's name
+9. the cancelled appointment date
+10. the cancelled appointment time
+Techincal Implentation3:Once Submit happes the Properties on Column D to be Displayed 
+
+User Story ID4:004-Reschedule an Appointment
+Description4:As a CSA, I want to be able to reschedule a patient's upcoming appointment in compliance with business rules.
+Acceptance Criteria4:After the user selects the reschedule action and clicks the next button on the Manage Appointments screen, the application displays the Reschedule Appointment with New Date and Time Screen.
+This screen contains the following information:
+1. Care Provider Name
+2. Care Provider Specialty
+3. Appointment Location
+4. Appointment Date
+5. Appointment Time
+6. Calendar Control to enter the NEW Appointment Start Date
+7. Calendar Control to enter the NEW Appointment End Date
+8. Dropdown Control to choose the patient's Time Preference
+9. Dropdown Control to choose the patient's Language Preference
+10. Dropdown Control to choose the patient's Location Preference
+Techincal Implentation4:CSA Selects the Patient Details to be rescheduled and Clicks on Reschedule, Pega Perform Harness to be shown with resucdule details as show in Column D
+
+now give me how to do this in pega and i am a beginner in pega so give me detail explanation
